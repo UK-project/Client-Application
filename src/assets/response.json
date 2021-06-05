@@ -1,0 +1,725 @@
+{
+  "data": {
+    "sheet_id": 4408,
+    "uploaded_date": "2021-06-05T11:17:37.772+00:00",
+    "tabs": [
+      {
+        "tab_id": 4409,
+        "tab_name": "All 11 markets",
+        "tab_topic": "Beauty adspend - all 11 markets (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4410,
+            "json_data": "{\"TV\":5500.0,\"Year\":2010.0,\"Total\":11839.0,\"Newspapers\":1878.0,\"Magazines\":411.0,\"OOH\":700.0,\"Digital\":1996.0,\"Radio\":1341.0,\"Cinema\":13.0}"
+          },
+          {
+            "data_set_id": 4411,
+            "json_data": "{\"TV\":5158.0,\"Year\":2011.0,\"Total\":10948.0,\"Newspapers\":1430.0,\"Magazines\":368.0,\"OOH\":697.0,\"Digital\":2118.0,\"Radio\":1167.0,\"Cinema\":10.0}"
+          },
+          {
+            "data_set_id": 4412,
+            "json_data": "{\"TV\":5225.0,\"Year\":2012.0,\"Total\":11038.0,\"Newspapers\":1110.0,\"Magazines\":353.0,\"OOH\":651.0,\"Digital\":2405.0,\"Radio\":1288.0,\"Cinema\":8.0}"
+          },
+          {
+            "data_set_id": 4413,
+            "json_data": "{\"TV\":5628.0,\"Year\":2013.0,\"Total\":12320.0,\"Newspapers\":1048.0,\"Magazines\":354.0,\"OOH\":599.0,\"Digital\":3125.0,\"Radio\":1457.0,\"Cinema\":109.0}"
+          },
+          {
+            "data_set_id": 4414,
+            "json_data": "{\"TV\":5824.0,\"Year\":2014.0,\"Total\":12498.0,\"Newspapers\":895.0,\"Magazines\":357.0,\"OOH\":688.0,\"Digital\":2958.0,\"Radio\":1745.0,\"Cinema\":31.0}"
+          },
+          {
+            "data_set_id": 4415,
+            "json_data": "{\"TV\":6122.0,\"Year\":2015.0,\"Total\":14098.0,\"Newspapers\":842.0,\"Magazines\":397.0,\"OOH\":783.0,\"Digital\":3946.0,\"Radio\":1943.0,\"Cinema\":65.0}"
+          },
+          {
+            "data_set_id": 4416,
+            "json_data": "{\"TV\":6528.0,\"Year\":2016.0,\"Total\":15089.0,\"Newspapers\":779.0,\"Magazines\":334.0,\"OOH\":803.0,\"Digital\":4719.0,\"Radio\":1805.0,\"Cinema\":121.0}"
+          },
+          {
+            "data_set_id": 4417,
+            "json_data": "{\"TV\":6828.0,\"Year\":2017.0,\"Total\":16172.0,\"Newspapers\":655.0,\"Magazines\":233.0,\"OOH\":831.0,\"Digital\":5595.0,\"Radio\":1871.0,\"Cinema\":160.0}"
+          },
+          {
+            "data_set_id": 4418,
+            "json_data": "{\"TV\":6013.0,\"Year\":2018.0,\"Total\":15478.0,\"Newspapers\":506.0,\"Magazines\":239.0,\"OOH\":821.0,\"Digital\":6083.0,\"Radio\":1668.0,\"Cinema\":147.0}"
+          },
+          {
+            "data_set_id": 4419,
+            "json_data": "{\"TV\":6101.0,\"Year\":2019.0,\"Total\":17047.0,\"Newspapers\":460.0,\"Magazines\":235.0,\"OOH\":806.0,\"Digital\":7595.0,\"Radio\":1693.0,\"Cinema\":158.0}"
+          },
+          {
+            "data_set_id": 4420,
+            "json_data": "{\"TV\":5649.0,\"Year\":2020.0,\"Total\":16151.0,\"Newspapers\":333.0,\"Magazines\":187.0,\"OOH\":629.0,\"Digital\":7788.0,\"Radio\":1477.0,\"Cinema\":89.0}"
+          },
+          {
+            "data_set_id": 4421,
+            "json_data": "{\"TV\":5589.0,\"Year\":2021.0,\"Total\":16912.0,\"Newspapers\":308.0,\"Magazines\":171.0,\"OOH\":700.0,\"Digital\":8514.0,\"Radio\":1505.0,\"Cinema\":124.0}"
+          },
+          {
+            "data_set_id": 4422,
+            "json_data": "{\"TV\":5663.0,\"Year\":2022.0,\"Total\":17683.0,\"Newspapers\":283.0,\"Magazines\":156.0,\"OOH\":737.0,\"Digital\":9179.0,\"Radio\":1526.0,\"Cinema\":139.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4423,
+        "tab_name": "Australia",
+        "tab_topic": "Beauty adspend - Australia (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4424,
+            "json_data": "{\"TV\":99.0,\"Year\":2010.0,\"Total\":513.0,\"Newspapers\":196.0,\"Magazines\":19.0,\"OOH\":42.0,\"Digital\":122.0,\"Radio\":32.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4425,
+            "json_data": "{\"TV\":84.0,\"Year\":2011.0,\"Total\":470.0,\"Newspapers\":145.0,\"Magazines\":11.0,\"OOH\":47.0,\"Digital\":148.0,\"Radio\":34.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4426,
+            "json_data": "{\"TV\":78.0,\"Year\":2012.0,\"Total\":383.0,\"Newspapers\":93.0,\"Magazines\":6.0,\"OOH\":34.0,\"Digital\":148.0,\"Radio\":21.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4427,
+            "json_data": "{\"TV\":64.0,\"Year\":2013.0,\"Total\":348.0,\"Newspapers\":52.0,\"Magazines\":4.0,\"OOH\":27.0,\"Digital\":177.0,\"Radio\":22.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4428,
+            "json_data": "{\"TV\":90.0,\"Year\":2014.0,\"Total\":404.0,\"Newspapers\":50.0,\"Magazines\":2.0,\"OOH\":40.0,\"Digital\":196.0,\"Radio\":24.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4429,
+            "json_data": "{\"TV\":81.0,\"Year\":2015.0,\"Total\":428.0,\"Newspapers\":49.0,\"Magazines\":2.0,\"OOH\":55.0,\"Digital\":203.0,\"Radio\":34.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4430,
+            "json_data": "{\"TV\":86.0,\"Year\":2016.0,\"Total\":347.0,\"Newspapers\":32.0,\"Magazines\":1.0,\"OOH\":29.0,\"Digital\":165.0,\"Radio\":31.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4431,
+            "json_data": "{\"TV\":82.0,\"Year\":2017.0,\"Total\":356.0,\"Newspapers\":23.0,\"Magazines\":0.0,\"OOH\":27.0,\"Digital\":185.0,\"Radio\":33.0,\"Cinema\":5.0}"
+          },
+          {
+            "data_set_id": 4432,
+            "json_data": "{\"TV\":67.0,\"Year\":2018.0,\"Total\":333.0,\"Newspapers\":17.0,\"Magazines\":1.0,\"OOH\":26.0,\"Digital\":188.0,\"Radio\":29.0,\"Cinema\":6.0}"
+          },
+          {
+            "data_set_id": 4433,
+            "json_data": "{\"TV\":75.0,\"Year\":2019.0,\"Total\":365.0,\"Newspapers\":7.0,\"Magazines\":0.0,\"OOH\":28.0,\"Digital\":224.0,\"Radio\":26.0,\"Cinema\":6.0}"
+          },
+          {
+            "data_set_id": 4434,
+            "json_data": "{\"TV\":56.0,\"Year\":2020.0,\"Total\":286.0,\"Newspapers\":4.0,\"Magazines\":0.0,\"OOH\":16.0,\"Digital\":190.0,\"Radio\":18.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4435,
+            "json_data": "{\"TV\":56.0,\"Year\":2021.0,\"Total\":294.0,\"Newspapers\":3.0,\"Magazines\":0.0,\"OOH\":16.0,\"Digital\":198.0,\"Radio\":18.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4436,
+            "json_data": "{\"TV\":54.0,\"Year\":2022.0,\"Total\":303.0,\"Newspapers\":3.0,\"Magazines\":0.0,\"OOH\":17.0,\"Digital\":208.0,\"Radio\":18.0,\"Cinema\":2.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4437,
+        "tab_name": "Canada",
+        "tab_topic": "Beauty adspend - Canada (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4438,
+            "json_data": "{\"TV\":0.0,\"Year\":2010.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4439,
+            "json_data": "{\"TV\":0.0,\"Year\":2011.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4440,
+            "json_data": "{\"TV\":0.0,\"Year\":2012.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4441,
+            "json_data": "{\"TV\":0.0,\"Year\":2013.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4442,
+            "json_data": "{\"TV\":0.0,\"Year\":2014.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4443,
+            "json_data": "{\"TV\":68.0,\"Year\":2015.0,\"Total\":344.0,\"Newspapers\":22.0,\"Magazines\":3.0,\"OOH\":33.0,\"Digital\":139.0,\"Radio\":80.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4444,
+            "json_data": "{\"TV\":79.0,\"Year\":2016.0,\"Total\":426.0,\"Newspapers\":26.0,\"Magazines\":2.0,\"OOH\":34.0,\"Digital\":207.0,\"Radio\":78.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4445,
+            "json_data": "{\"TV\":86.0,\"Year\":2017.0,\"Total\":590.0,\"Newspapers\":22.0,\"Magazines\":1.0,\"OOH\":38.0,\"Digital\":357.0,\"Radio\":84.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4446,
+            "json_data": "{\"TV\":95.0,\"Year\":2018.0,\"Total\":515.0,\"Newspapers\":29.0,\"Magazines\":1.0,\"OOH\":43.0,\"Digital\":283.0,\"Radio\":64.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4447,
+            "json_data": "{\"TV\":86.0,\"Year\":2019.0,\"Total\":595.0,\"Newspapers\":34.0,\"Magazines\":0.0,\"OOH\":44.0,\"Digital\":382.0,\"Radio\":48.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4448,
+            "json_data": "{\"TV\":83.0,\"Year\":2020.0,\"Total\":577.0,\"Newspapers\":32.0,\"Magazines\":0.0,\"OOH\":39.0,\"Digital\":384.0,\"Radio\":39.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4449,
+            "json_data": "{\"TV\":88.0,\"Year\":2021.0,\"Total\":602.0,\"Newspapers\":30.0,\"Magazines\":0.0,\"OOH\":39.0,\"Digital\":403.0,\"Radio\":41.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4450,
+            "json_data": "{\"TV\":91.0,\"Year\":2022.0,\"Total\":628.0,\"Newspapers\":29.0,\"Magazines\":0.0,\"OOH\":40.0,\"Digital\":425.0,\"Radio\":43.0,\"Cinema\":0.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4451,
+        "tab_name": "France",
+        "tab_topic": "Beauty adspend - France (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4452,
+            "json_data": "{\"TV\":0.0,\"Year\":2010.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4453,
+            "json_data": "{\"TV\":0.0,\"Year\":2011.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4454,
+            "json_data": "{\"TV\":0.0,\"Year\":2012.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4455,
+            "json_data": "{\"TV\":0.0,\"Year\":2013.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4456,
+            "json_data": "{\"TV\":219.0,\"Year\":2014.0,\"Total\":539.0,\"Newspapers\":32.0,\"Magazines\":21.0,\"OOH\":112.0,\"Digital\":111.0,\"Radio\":41.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4457,
+            "json_data": "{\"TV\":189.0,\"Year\":2015.0,\"Total\":497.0,\"Newspapers\":21.0,\"Magazines\":25.0,\"OOH\":89.0,\"Digital\":119.0,\"Radio\":48.0,\"Cinema\":7.0}"
+          },
+          {
+            "data_set_id": 4458,
+            "json_data": "{\"TV\":175.0,\"Year\":2016.0,\"Total\":485.0,\"Newspapers\":19.0,\"Magazines\":23.0,\"OOH\":89.0,\"Digital\":134.0,\"Radio\":42.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4459,
+            "json_data": "{\"TV\":174.0,\"Year\":2017.0,\"Total\":494.0,\"Newspapers\":20.0,\"Magazines\":21.0,\"OOH\":79.0,\"Digital\":153.0,\"Radio\":41.0,\"Cinema\":6.0}"
+          },
+          {
+            "data_set_id": 4460,
+            "json_data": "{\"TV\":156.0,\"Year\":2018.0,\"Total\":495.0,\"Newspapers\":17.0,\"Magazines\":20.0,\"OOH\":82.0,\"Digital\":171.0,\"Radio\":40.0,\"Cinema\":9.0}"
+          },
+          {
+            "data_set_id": 4461,
+            "json_data": "{\"TV\":152.0,\"Year\":2019.0,\"Total\":503.0,\"Newspapers\":16.0,\"Magazines\":19.0,\"OOH\":81.0,\"Digital\":191.0,\"Radio\":36.0,\"Cinema\":7.0}"
+          },
+          {
+            "data_set_id": 4462,
+            "json_data": "{\"TV\":179.0,\"Year\":2020.0,\"Total\":547.0,\"Newspapers\":19.0,\"Magazines\":20.0,\"OOH\":58.0,\"Digital\":231.0,\"Radio\":36.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4463,
+            "json_data": "{\"TV\":161.0,\"Year\":2021.0,\"Total\":520.0,\"Newspapers\":16.0,\"Magazines\":17.0,\"OOH\":61.0,\"Digital\":227.0,\"Radio\":32.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4464,
+            "json_data": "{\"TV\":168.0,\"Year\":2022.0,\"Total\":548.0,\"Newspapers\":14.0,\"Magazines\":16.0,\"OOH\":70.0,\"Digital\":240.0,\"Radio\":34.0,\"Cinema\":5.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4465,
+        "tab_name": "Germany",
+        "tab_topic": "Beauty adspend - Germany (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4466,
+            "json_data": "{\"TV\":124.0,\"Year\":2010.0,\"Total\":644.0,\"Newspapers\":165.0,\"Magazines\":50.0,\"OOH\":64.0,\"Digital\":225.0,\"Radio\":12.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4467,
+            "json_data": "{\"TV\":124.0,\"Year\":2011.0,\"Total\":640.0,\"Newspapers\":115.0,\"Magazines\":57.0,\"OOH\":63.0,\"Digital\":268.0,\"Radio\":10.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4468,
+            "json_data": "{\"TV\":131.0,\"Year\":2012.0,\"Total\":593.0,\"Newspapers\":102.0,\"Magazines\":47.0,\"OOH\":56.0,\"Digital\":240.0,\"Radio\":15.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4469,
+            "json_data": "{\"TV\":152.0,\"Year\":2013.0,\"Total\":621.0,\"Newspapers\":131.0,\"Magazines\":45.0,\"OOH\":73.0,\"Digital\":200.0,\"Radio\":17.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4470,
+            "json_data": "{\"TV\":159.0,\"Year\":2014.0,\"Total\":665.0,\"Newspapers\":127.0,\"Magazines\":35.0,\"OOH\":59.0,\"Digital\":265.0,\"Radio\":17.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4471,
+            "json_data": "{\"TV\":176.0,\"Year\":2015.0,\"Total\":681.0,\"Newspapers\":117.0,\"Magazines\":33.0,\"OOH\":63.0,\"Digital\":274.0,\"Radio\":15.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4472,
+            "json_data": "{\"TV\":151.0,\"Year\":2016.0,\"Total\":632.0,\"Newspapers\":122.0,\"Magazines\":28.0,\"OOH\":61.0,\"Digital\":242.0,\"Radio\":24.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4473,
+            "json_data": "{\"TV\":139.0,\"Year\":2017.0,\"Total\":710.0,\"Newspapers\":155.0,\"Magazines\":28.0,\"OOH\":69.0,\"Digital\":285.0,\"Radio\":30.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4474,
+            "json_data": "{\"TV\":129.0,\"Year\":2018.0,\"Total\":711.0,\"Newspapers\":135.0,\"Magazines\":27.0,\"OOH\":49.0,\"Digital\":344.0,\"Radio\":25.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4475,
+            "json_data": "{\"TV\":139.0,\"Year\":2019.0,\"Total\":651.0,\"Newspapers\":72.0,\"Magazines\":22.0,\"OOH\":53.0,\"Digital\":339.0,\"Radio\":26.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4476,
+            "json_data": "{\"TV\":124.0,\"Year\":2020.0,\"Total\":632.0,\"Newspapers\":69.0,\"Magazines\":18.0,\"OOH\":47.0,\"Digital\":350.0,\"Radio\":24.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4477,
+            "json_data": "{\"TV\":124.0,\"Year\":2021.0,\"Total\":642.0,\"Newspapers\":68.0,\"Magazines\":18.0,\"OOH\":46.0,\"Digital\":360.0,\"Radio\":24.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4478,
+            "json_data": "{\"TV\":123.0,\"Year\":2022.0,\"Total\":661.0,\"Newspapers\":69.0,\"Magazines\":18.0,\"OOH\":47.0,\"Digital\":379.0,\"Radio\":25.0,\"Cinema\":1.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4479,
+        "tab_name": "India",
+        "tab_topic": "Beauty adspend - India (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4480,
+            "json_data": "{\"TV\":0.0,\"Year\":2010.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4481,
+            "json_data": "{\"TV\":0.0,\"Year\":2011.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4482,
+            "json_data": "{\"TV\":0.0,\"Year\":2012.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4483,
+            "json_data": "{\"TV\":0.0,\"Year\":2013.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4484,
+            "json_data": "{\"TV\":0.0,\"Year\":2014.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4485,
+            "json_data": "{\"TV\":0.0,\"Year\":2015.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4486,
+            "json_data": "{\"TV\":0.0,\"Year\":2016.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4487,
+            "json_data": "{\"TV\":0.0,\"Year\":2017.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4488,
+            "json_data": "{\"TV\":0.0,\"Year\":2018.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4489,
+            "json_data": "{\"TV\":208.0,\"Year\":2019.0,\"Total\":241.0,\"Newspapers\":25.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":8.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4490,
+            "json_data": "{\"TV\":181.0,\"Year\":2020.0,\"Total\":207.0,\"Newspapers\":19.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":7.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4491,
+            "json_data": "{\"TV\":209.0,\"Year\":2021.0,\"Total\":238.0,\"Newspapers\":21.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":8.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4492,
+            "json_data": "{\"TV\":230.0,\"Year\":2022.0,\"Total\":259.0,\"Newspapers\":21.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":8.0,\"Cinema\":0.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4493,
+        "tab_name": "Italy",
+        "tab_topic": "Beauty adspend - Italy (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4494,
+            "json_data": "{\"TV\":0.0,\"Year\":2010.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4495,
+            "json_data": "{\"TV\":0.0,\"Year\":2011.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4496,
+            "json_data": "{\"TV\":0.0,\"Year\":2012.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4497,
+            "json_data": "{\"TV\":0.0,\"Year\":2013.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4498,
+            "json_data": "{\"TV\":0.0,\"Year\":2014.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4499,
+            "json_data": "{\"TV\":260.0,\"Year\":2015.0,\"Total\":448.0,\"Newspapers\":16.0,\"Magazines\":4.0,\"OOH\":45.0,\"Digital\":103.0,\"Radio\":19.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4500,
+            "json_data": "{\"TV\":292.0,\"Year\":2016.0,\"Total\":442.0,\"Newspapers\":16.0,\"Magazines\":4.0,\"OOH\":37.0,\"Digital\":79.0,\"Radio\":13.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4501,
+            "json_data": "{\"TV\":280.0,\"Year\":2017.0,\"Total\":482.0,\"Newspapers\":13.0,\"Magazines\":4.0,\"OOH\":35.0,\"Digital\":136.0,\"Radio\":12.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4502,
+            "json_data": "{\"TV\":267.0,\"Year\":2018.0,\"Total\":434.0,\"Newspapers\":7.0,\"Magazines\":2.0,\"OOH\":34.0,\"Digital\":111.0,\"Radio\":10.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4503,
+            "json_data": "{\"TV\":224.0,\"Year\":2019.0,\"Total\":400.0,\"Newspapers\":9.0,\"Magazines\":2.0,\"OOH\":27.0,\"Digital\":121.0,\"Radio\":17.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4504,
+            "json_data": "{\"TV\":223.0,\"Year\":2020.0,\"Total\":396.0,\"Newspapers\":7.0,\"Magazines\":2.0,\"OOH\":19.0,\"Digital\":130.0,\"Radio\":15.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4505,
+            "json_data": "{\"TV\":218.0,\"Year\":2021.0,\"Total\":397.0,\"Newspapers\":6.0,\"Magazines\":1.0,\"OOH\":25.0,\"Digital\":131.0,\"Radio\":16.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4506,
+            "json_data": "{\"TV\":222.0,\"Year\":2022.0,\"Total\":419.0,\"Newspapers\":5.0,\"Magazines\":1.0,\"OOH\":29.0,\"Digital\":143.0,\"Radio\":17.0,\"Cinema\":1.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4507,
+        "tab_name": "Russia",
+        "tab_topic": "Beauty adspend - Russia (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4508,
+            "json_data": "{\"TV\":0.0,\"Year\":2010.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4509,
+            "json_data": "{\"TV\":0.0,\"Year\":2011.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4510,
+            "json_data": "{\"TV\":0.0,\"Year\":2012.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4511,
+            "json_data": "{\"TV\":0.0,\"Year\":2013.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4512,
+            "json_data": "{\"TV\":0.0,\"Year\":2014.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4513,
+            "json_data": "{\"TV\":0.0,\"Year\":2015.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4514,
+            "json_data": "{\"TV\":0.0,\"Year\":2016.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4515,
+            "json_data": "{\"TV\":121.0,\"Year\":2017.0,\"Total\":225.0,\"Newspapers\":1.0,\"Magazines\":0.0,\"OOH\":44.0,\"Digital\":26.0,\"Radio\":11.0,\"Cinema\":23.0}"
+          },
+          {
+            "data_set_id": 4516,
+            "json_data": "{\"TV\":138.0,\"Year\":2018.0,\"Total\":238.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":45.0,\"Digital\":39.0,\"Radio\":15.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4517,
+            "json_data": "{\"TV\":151.0,\"Year\":2019.0,\"Total\":237.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":42.0,\"Digital\":29.0,\"Radio\":14.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4518,
+            "json_data": "{\"TV\":146.0,\"Year\":2020.0,\"Total\":226.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":37.0,\"Digital\":31.0,\"Radio\":12.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4519,
+            "json_data": "{\"TV\":152.0,\"Year\":2021.0,\"Total\":239.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":40.0,\"Digital\":35.0,\"Radio\":12.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4520,
+            "json_data": "{\"TV\":163.0,\"Year\":2022.0,\"Total\":260.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":43.0,\"Digital\":41.0,\"Radio\":12.0,\"Cinema\":0.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4521,
+        "tab_name": "Spain",
+        "tab_topic": "Beauty adspend - Spain (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4522,
+            "json_data": "{\"TV\":288.0,\"Year\":2010.0,\"Total\":574.0,\"Newspapers\":38.0,\"Magazines\":11.0,\"OOH\":79.0,\"Digital\":128.0,\"Radio\":26.0,\"Cinema\":5.0}"
+          },
+          {
+            "data_set_id": 4523,
+            "json_data": "{\"TV\":262.0,\"Year\":2011.0,\"Total\":475.0,\"Newspapers\":32.0,\"Magazines\":10.0,\"OOH\":61.0,\"Digital\":88.0,\"Radio\":19.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4524,
+            "json_data": "{\"TV\":177.0,\"Year\":2012.0,\"Total\":399.0,\"Newspapers\":22.0,\"Magazines\":8.0,\"OOH\":59.0,\"Digital\":117.0,\"Radio\":13.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4525,
+            "json_data": "{\"TV\":205.0,\"Year\":2013.0,\"Total\":391.0,\"Newspapers\":17.0,\"Magazines\":4.0,\"OOH\":43.0,\"Digital\":106.0,\"Radio\":12.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4526,
+            "json_data": "{\"TV\":192.0,\"Year\":2014.0,\"Total\":356.0,\"Newspapers\":13.0,\"Magazines\":3.0,\"OOH\":38.0,\"Digital\":96.0,\"Radio\":12.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4527,
+            "json_data": "{\"TV\":189.0,\"Year\":2015.0,\"Total\":382.0,\"Newspapers\":10.0,\"Magazines\":3.0,\"OOH\":42.0,\"Digital\":122.0,\"Radio\":15.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4528,
+            "json_data": "{\"TV\":190.0,\"Year\":2016.0,\"Total\":374.0,\"Newspapers\":12.0,\"Magazines\":4.0,\"OOH\":33.0,\"Digital\":114.0,\"Radio\":18.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4529,
+            "json_data": "{\"TV\":187.0,\"Year\":2017.0,\"Total\":383.0,\"Newspapers\":8.0,\"Magazines\":3.0,\"OOH\":35.0,\"Digital\":134.0,\"Radio\":12.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4530,
+            "json_data": "{\"TV\":183.0,\"Year\":2018.0,\"Total\":476.0,\"Newspapers\":9.0,\"Magazines\":2.0,\"OOH\":48.0,\"Digital\":216.0,\"Radio\":14.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4531,
+            "json_data": "{\"TV\":208.0,\"Year\":2019.0,\"Total\":491.0,\"Newspapers\":9.0,\"Magazines\":2.0,\"OOH\":37.0,\"Digital\":212.0,\"Radio\":17.0,\"Cinema\":5.0}"
+          },
+          {
+            "data_set_id": 4532,
+            "json_data": "{\"TV\":153.0,\"Year\":2020.0,\"Total\":366.0,\"Newspapers\":6.0,\"Magazines\":1.0,\"OOH\":18.0,\"Digital\":176.0,\"Radio\":11.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4533,
+            "json_data": "{\"TV\":169.0,\"Year\":2021.0,\"Total\":406.0,\"Newspapers\":5.0,\"Magazines\":1.0,\"OOH\":31.0,\"Digital\":182.0,\"Radio\":14.0,\"Cinema\":4.0}"
+          },
+          {
+            "data_set_id": 4534,
+            "json_data": "{\"TV\":175.0,\"Year\":2022.0,\"Total\":430.0,\"Newspapers\":5.0,\"Magazines\":1.0,\"OOH\":31.0,\"Digital\":199.0,\"Radio\":15.0,\"Cinema\":4.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4535,
+        "tab_name": "Switzerland",
+        "tab_topic": "Beauty adspend - Switzerland (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4536,
+            "json_data": "{\"TV\":46.0,\"Year\":2010.0,\"Total\":155.0,\"Newspapers\":51.0,\"Magazines\":11.0,\"OOH\":15.0,\"Digital\":29.0,\"Radio\":2.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4537,
+            "json_data": "{\"TV\":67.0,\"Year\":2011.0,\"Total\":234.0,\"Newspapers\":83.0,\"Magazines\":18.0,\"OOH\":19.0,\"Digital\":41.0,\"Radio\":5.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4538,
+            "json_data": "{\"TV\":42.0,\"Year\":2012.0,\"Total\":165.0,\"Newspapers\":50.0,\"Magazines\":12.0,\"OOH\":19.0,\"Digital\":37.0,\"Radio\":5.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4539,
+            "json_data": "{\"TV\":47.0,\"Year\":2013.0,\"Total\":181.0,\"Newspapers\":52.0,\"Magazines\":10.0,\"OOH\":19.0,\"Digital\":46.0,\"Radio\":4.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4540,
+            "json_data": "{\"TV\":55.0,\"Year\":2014.0,\"Total\":162.0,\"Newspapers\":43.0,\"Magazines\":7.0,\"OOH\":21.0,\"Digital\":30.0,\"Radio\":4.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4541,
+            "json_data": "{\"TV\":52.0,\"Year\":2015.0,\"Total\":195.0,\"Newspapers\":44.0,\"Magazines\":8.0,\"OOH\":33.0,\"Digital\":52.0,\"Radio\":3.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4542,
+            "json_data": "{\"TV\":59.0,\"Year\":2016.0,\"Total\":194.0,\"Newspapers\":40.0,\"Magazines\":5.0,\"OOH\":32.0,\"Digital\":53.0,\"Radio\":3.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4543,
+            "json_data": "{\"TV\":43.0,\"Year\":2017.0,\"Total\":192.0,\"Newspapers\":42.0,\"Magazines\":6.0,\"OOH\":35.0,\"Digital\":60.0,\"Radio\":4.0,\"Cinema\":2.0}"
+          },
+          {
+            "data_set_id": 4544,
+            "json_data": "{\"TV\":48.0,\"Year\":2018.0,\"Total\":192.0,\"Newspapers\":29.0,\"Magazines\":5.0,\"OOH\":48.0,\"Digital\":55.0,\"Radio\":3.0,\"Cinema\":3.0}"
+          },
+          {
+            "data_set_id": 4545,
+            "json_data": "{\"TV\":34.0,\"Year\":2019.0,\"Total\":233.0,\"Newspapers\":28.0,\"Magazines\":6.0,\"OOH\":64.0,\"Digital\":95.0,\"Radio\":6.0,\"Cinema\":1.0}"
+          },
+          {
+            "data_set_id": 4546,
+            "json_data": "{\"TV\":28.0,\"Year\":2020.0,\"Total\":198.0,\"Newspapers\":21.0,\"Magazines\":5.0,\"OOH\":54.0,\"Digital\":85.0,\"Radio\":5.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4547,
+            "json_data": "{\"TV\":30.0,\"Year\":2021.0,\"Total\":216.0,\"Newspapers\":19.0,\"Magazines\":4.0,\"OOH\":57.0,\"Digital\":100.0,\"Radio\":5.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4548,
+            "json_data": "{\"TV\":29.0,\"Year\":2022.0,\"Total\":222.0,\"Newspapers\":17.0,\"Magazines\":4.0,\"OOH\":60.0,\"Digital\":106.0,\"Radio\":5.0,\"Cinema\":0.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4549,
+        "tab_name": "UK",
+        "tab_topic": "Beauty adspend - UK (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4550,
+            "json_data": "{\"TV\":0.0,\"Year\":2010.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4551,
+            "json_data": "{\"TV\":0.0,\"Year\":2011.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4552,
+            "json_data": "{\"TV\":0.0,\"Year\":2012.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4553,
+            "json_data": "{\"TV\":0.0,\"Year\":2013.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4554,
+            "json_data": "{\"TV\":0.0,\"Year\":2014.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4555,
+            "json_data": "{\"TV\":0.0,\"Year\":2015.0,\"Total\":0.0,\"Newspapers\":0.0,\"Magazines\":0.0,\"OOH\":0.0,\"Digital\":0.0,\"Radio\":0.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4556,
+            "json_data": "{\"TV\":251.0,\"Year\":2016.0,\"Total\":1497.0,\"Newspapers\":165.0,\"Magazines\":12.0,\"OOH\":126.0,\"Digital\":863.0,\"Radio\":45.0,\"Cinema\":35.0}"
+          },
+          {
+            "data_set_id": 4557,
+            "json_data": "{\"TV\":280.0,\"Year\":2017.0,\"Total\":1293.0,\"Newspapers\":138.0,\"Magazines\":11.0,\"OOH\":119.0,\"Digital\":664.0,\"Radio\":56.0,\"Cinema\":24.0}"
+          },
+          {
+            "data_set_id": 4558,
+            "json_data": "{\"TV\":288.0,\"Year\":2018.0,\"Total\":1187.0,\"Newspapers\":127.0,\"Magazines\":10.0,\"OOH\":117.0,\"Digital\":563.0,\"Radio\":63.0,\"Cinema\":18.0}"
+          },
+          {
+            "data_set_id": 4559,
+            "json_data": "{\"TV\":261.0,\"Year\":2019.0,\"Total\":1345.0,\"Newspapers\":117.0,\"Magazines\":7.0,\"OOH\":111.0,\"Digital\":765.0,\"Radio\":58.0,\"Cinema\":26.0}"
+          },
+          {
+            "data_set_id": 4560,
+            "json_data": "{\"TV\":262.0,\"Year\":2020.0,\"Total\":1187.0,\"Newspapers\":53.0,\"Magazines\":4.0,\"OOH\":72.0,\"Digital\":730.0,\"Radio\":53.0,\"Cinema\":14.0}"
+          },
+          {
+            "data_set_id": 4561,
+            "json_data": "{\"TV\":285.0,\"Year\":2021.0,\"Total\":1314.0,\"Newspapers\":58.0,\"Magazines\":4.0,\"OOH\":81.0,\"Digital\":795.0,\"Radio\":60.0,\"Cinema\":31.0}"
+          },
+          {
+            "data_set_id": 4562,
+            "json_data": "{\"TV\":290.0,\"Year\":2022.0,\"Total\":1346.0,\"Newspapers\":55.0,\"Magazines\":4.0,\"OOH\":84.0,\"Digital\":811.0,\"Radio\":63.0,\"Cinema\":40.0}"
+          }
+        ]
+      },
+      {
+        "tab_id": 4563,
+        "tab_name": "US",
+        "tab_topic": "Beauty adspend - US (US$ million)",
+        "data_set": [
+          {
+            "data_set_id": 4564,
+            "json_data": "{\"TV\":4943.0,\"Year\":2010.0,\"Total\":9953.0,\"Newspapers\":1428.0,\"Magazines\":321.0,\"OOH\":499.0,\"Digital\":1491.0,\"Radio\":1270.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4565,
+            "json_data": "{\"TV\":4620.0,\"Year\":2011.0,\"Total\":9129.0,\"Newspapers\":1055.0,\"Magazines\":272.0,\"OOH\":507.0,\"Digital\":1573.0,\"Radio\":1100.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4566,
+            "json_data": "{\"TV\":4797.0,\"Year\":2012.0,\"Total\":9498.0,\"Newspapers\":844.0,\"Magazines\":280.0,\"OOH\":481.0,\"Digital\":1863.0,\"Radio\":1234.0,\"Cinema\":0.0}"
+          },
+          {
+            "data_set_id": 4567,
+            "json_data": "{\"TV\":5160.0,\"Year\":2013.0,\"Total\":10778.0,\"Newspapers\":795.0,\"Magazines\":290.0,\"OOH\":437.0,\"Digital\":2596.0,\"Radio\":1402.0,\"Cinema\":98.0}"
+          },
+          {
+            "data_set_id": 4568,
+            "json_data": "{\"TV\":5109.0,\"Year\":2014.0,\"Total\":10371.0,\"Newspapers\":631.0,\"Magazines\":288.0,\"OOH\":418.0,\"Digital\":2260.0,\"Radio\":1647.0,\"Cinema\":19.0}"
+          },
+          {
+            "data_set_id": 4569,
+            "json_data": "{\"TV\":5106.0,\"Year\":2015.0,\"Total\":11122.0,\"Newspapers\":562.0,\"Magazines\":320.0,\"OOH\":424.0,\"Digital\":2936.0,\"Radio\":1729.0,\"Cinema\":46.0}"
+          },
+          {
+            "data_set_id": 4570,
+            "json_data": "{\"TV\":5245.0,\"Year\":2016.0,\"Total\":10692.0,\"Newspapers\":348.0,\"Magazines\":253.0,\"OOH\":363.0,\"Digital\":2863.0,\"Radio\":1552.0,\"Cinema\":67.0}"
+          },
+          {
+            "data_set_id": 4571,
+            "json_data": "{\"TV\":5433.0,\"Year\":2017.0,\"Total\":11448.0,\"Newspapers\":233.0,\"Magazines\":160.0,\"OOH\":350.0,\"Digital\":3594.0,\"Radio\":1587.0,\"Cinema\":91.0}"
+          },
+          {
+            "data_set_id": 4572,
+            "json_data": "{\"TV\":4642.0,\"Year\":2018.0,\"Total\":10897.0,\"Newspapers\":134.0,\"Magazines\":171.0,\"OOH\":329.0,\"Digital\":4113.0,\"Radio\":1403.0,\"Cinema\":105.0}"
+          },
+          {
+            "data_set_id": 4573,
+            "json_data": "{\"TV\":4562.0,\"Year\":2019.0,\"Total\":11986.0,\"Newspapers\":143.0,\"Magazines\":176.0,\"OOH\":320.0,\"Digital\":5237.0,\"Radio\":1438.0,\"Cinema\":110.0}"
+          },
+          {
+            "data_set_id": 4574,
+            "json_data": "{\"TV\":4214.0,\"Year\":2020.0,\"Total\":11529.0,\"Newspapers\":104.0,\"Magazines\":136.0,\"OOH\":270.0,\"Digital\":5482.0,\"Radio\":1257.0,\"Cinema\":67.0}"
+          },
+          {
+            "data_set_id": 4575,
+            "json_data": "{\"TV\":4096.0,\"Year\":2021.0,\"Total\":12046.0,\"Newspapers\":81.0,\"Magazines\":124.0,\"OOH\":304.0,\"Digital\":6085.0,\"Radio\":1274.0,\"Cinema\":82.0}"
+          },
+          {
+            "data_set_id": 4576,
+            "json_data": "{\"TV\":4119.0,\"Year\":2022.0,\"Total\":12608.0,\"Newspapers\":65.0,\"Magazines\":112.0,\"OOH\":316.0,\"Digital\":6626.0,\"Radio\":1285.0,\"Cinema\":86.0}"
+          }
+        ]
+      }
+    ],
+    "sheet_meta": {
+      "id": 1,
+      "sheet_name": "Telecoms Adspend Forecasts",
+      "sheet_code": "TAF"
+    }
+  },
+  "meta": {
+    "status": 1,
+    "detail": "Success"
+  }
+}
