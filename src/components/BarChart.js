@@ -18,15 +18,16 @@ const ApexBarChart = () => {
       events: {
         animationEnd: function (chartContext, options) {
           // ...
-          console.log("start");
+          console.log("animation end");
         },
         click: function (event, chartContext, config) {
           // The last parameter config contains additional information like `seriesIndex` and `dataPointIndex` for cartesian charts
           console.log(chartContext, event, config);
         },
       },
+      colors: ["#F44336", "#E91E63", "#9C27B0"],
       //label color
-      foreColor: "#373d3f",
+      foreColor: "white",
       //   dropShadow: {
       //     enabled: true,
       //     enabledOnSeries: undefined,
@@ -42,7 +43,7 @@ const ApexBarChart = () => {
         autoScaleYaxis: true,
       },
       //background color for chart
-      background: "#fff",
+      background: "#2e3f47",
       type: "bar",
       height: 350,
       animations: {
@@ -65,12 +66,102 @@ const ApexBarChart = () => {
         horizontal: true,
       },
     },
+    // values inside bar
     dataLabels: {
-      enabled: false,
+      style: {
+        colors: ["white"],
+      },
+    },
+    markers: {
+      colors: ["#9C27B0"],
+    },
+    fill: {
+      type: "",
+      colors: ["#f94a4a"],
+      gradient: {
+        shade: "dark",
+        gradientToColors: ["#f94a4a"],
+        inverseColors: true,
+        shadeIntensity: 1,
+        opacityFrom: 1,
+        opacityTo: 1,
+        type: "vertical",
+        stops: [0, 90, 100],
+      },
     },
     xaxis: {
       categories: [],
     },
+    subtitle: {
+      text: 'Subtitle for graph',
+      align: 'center',
+      margin: 10,
+      offsetX: 0,
+      offsetY: 0,
+      floating: false,
+      style: {
+        fontSize:  '20px',
+        fontWeight:  'bold',
+        fontFamily:  undefined,
+        color:  '#9699a2'
+      },
+  },
+  //tooltip disabled
+   tooltip: {
+    enabled: true,
+    enabledOnSeries: true,
+    shared: true,
+    followCursor: true,
+    intersect: false,
+    inverseOrder: false,
+    custom: undefined,
+    fillSeriesColor: true,
+    theme: false,
+    style: {
+      fontSize: '12px',
+      fontFamily: undefined
+    },
+    onDatasetHover: {
+        highlightDataSeries: false,
+    },
+    x: {
+        show: true,
+        format: 'dd MMM',
+        formatter: undefined,
+    },
+    y: {
+      show:false,
+        formatter: undefined,
+        title: {
+            formatter: (seriesName) => seriesName,
+        },
+    },
+    z: {
+        formatter: undefined,
+        title: 'Size: '
+    },
+    marker: {
+        show: false,
+    },
+    items: {
+       display: 'flex',
+    },
+    fixed: {
+        enabled: false,
+        position: 'topRight',
+        offsetX: 0,
+        offsetY: 0,
+    },
+}
+    //shadow properties
+    // dropShadow: {
+    //   enabled: true,
+    //   top: 5,
+    //   left: 10,
+    //   blur: 3,
+    //   opacity: 0.5
+    // }
+
   });
   const selectedTabDropdown = useSelector(
     (state) => state.country.selectedCounty
@@ -88,13 +179,14 @@ const ApexBarChart = () => {
     const founded = { ...found };
     delete founded.id;
     delete founded.country;
+    delete founded.Year;
     const properties = Object.keys(founded);
     setLabels(properties);
     setChartOptions({
       ...chartOptions,
       xaxis: { ...chartOptions.xaxis, categories: properties },
     });
-    let values = Object.values(found);
+    let values = Object.values(founded);
     setValues(values);
     let roundedValues = values.map((v) => Math.round(v * 100) / 100);
     setChartData([{ data: roundedValues }]);
@@ -109,13 +201,14 @@ const ApexBarChart = () => {
     const founded = { ...found };
     delete founded.id;
     delete founded.country;
+    delete founded.Year;
     const properties = Object.keys(founded);
     setLabels(properties);
     setChartOptions({
       ...chartOptions,
       xaxis: { ...chartOptions.xaxis, categories: properties },
     });
-    let values = Object.values(found);
+    let values = Object.values(founded);
     setValues(values);
     let roundedValues = values.map((v) => Math.round(v * 100) / 100);
     setChartData([{ data: roundedValues }]);

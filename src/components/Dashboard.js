@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import clsx from "clsx";
 import { useTheme } from "@material-ui/core/styles";
 import {
@@ -23,15 +23,13 @@ import MailIcon from "@material-ui/icons/Mail";
 
 import Table from "./Table";
 import BarChart from "./BarChart";
+import MixedChart from "./MixedChart";
 import DataControl from "./DataControl";
 import { drawerStyles } from "../style/JssStyle";
-import {
-  changeResponseStructure,
-  getCountries
-} from '../helpers/helper'
+import { changeResponseStructure, getCountries } from "../helpers/helper";
 
 import { useSelector, useDispatch } from "react-redux";
-import {countryActions} from '../store/country'
+import { countryActions } from "../store/country";
 
 import response from "../assets/response.json";
 
@@ -39,8 +37,7 @@ export default function MiniDrawer() {
   const classes = drawerStyles();
   const theme = useTheme();
   const [open, setOpen] = useState(false);
-  const dispatch = useDispatch() 
-  
+  const dispatch = useDispatch();
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -50,24 +47,23 @@ export default function MiniDrawer() {
     setOpen(false);
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     const sheetData = {
-      uploadedDate:response.data.uploaded_date,
-      id:response.data.sheet_id,
-      name:response.data.sheet_meta.sheet_name,
-      code:response.data.sheet_meta.sheet_code
-    }
-    const sheet= changeResponseStructure(response)
-    const dropDownValues = getCountries(sheet.tabs)
+      uploadedDate: response.data.uploaded_date,
+      id: response.data.sheet_id,
+      name: response.data.sheet_meta.sheet_name,
+      code: response.data.sheet_meta.sheet_code,
+    };
+    const sheet = changeResponseStructure(response);
+    const dropDownValues = getCountries(sheet.tabs);
     const initialPayload = {
       sheetData,
       dropDownValues,
-      tabsData:sheet.tabs
-    }
+      tabsData: sheet.tabs,
+    };
     // console.log(sheet.tabs);
-    dispatch(countryActions.initialSetup(initialPayload))
-  },[])
-
+    dispatch(countryActions.initialSetup(initialPayload));
+  }, []);
 
   return (
     <div className={classes.root}>
@@ -133,7 +129,7 @@ export default function MiniDrawer() {
         </div>
         <Divider />
         <List>
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
+          {["Dashboard", "Profile"].map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
@@ -144,7 +140,7 @@ export default function MiniDrawer() {
         </List>
         <Divider />
         <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
+          {["Bar Chart", "Hybrid Chart", "Line Chart"].map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
@@ -163,7 +159,7 @@ export default function MiniDrawer() {
             background: "#2e3f47",
             margin: "20px",
             border: "2px solid #f94a4a",
-            boxShadow: "3px 3px 5px 6px #f94a4a",
+            boxShadow: "2px 2px 3px 4px #f94a4a",
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
@@ -196,9 +192,11 @@ export default function MiniDrawer() {
             style={{
               width: "100%",
               height: "700px",
-              // background: "white",
+              //works color for whole div => cant change graph background
+              backgroundColor: "#2e3f47",
               margin: "20px",
-              color: "white",
+              //works
+              // color: "red",
             }}
           >
             <BarChart />
@@ -207,12 +205,11 @@ export default function MiniDrawer() {
             style={{
               width: "100%",
               height: "700px",
-              background: "white",
               margin: "20px",
               backgroundColor: "#2e3f47",
             }}
           >
-            <p style={{ color: "black" }}>Chart 2</p>
+            <MixedChart />
           </div>
         </div>
       </main>
