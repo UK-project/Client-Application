@@ -230,13 +230,13 @@ const ApexBarChart = () => {
     let pptx = new pptxgen();
     let slide = pptx.addSlide();
 
-    let dataChartRadar = [
-      {
-        name: `country  for year`,
-        labels: ["May", "June", "July", "August", "September"],
-        values: [26, 53, 100, 75, 41],
-      },
-    ];
+    // let dataChartRadar = [
+    //   {
+    //     name: `country  for year`,
+    //     labels: ["May", "June", "July", "August", "September"],
+    //     values: [26, 53, 100, 75, 41],
+    //   },
+    // ];
     //slide.addChart(pptx.ChartType.radar, dataChartRadar, { x: 0.36, y: 2.25, w: 4.0, h: 4.0, radarStyle: "standard" });
 
     //slide.addShape(pptx.ShapeType.rect, { x: 4.36, y: 2.36, w: 5, h: 2.5, fill: pptx.SchemeColor.background2 });
