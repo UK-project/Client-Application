@@ -12,6 +12,8 @@ const initialCountryState = {
   rows: [],
   //tabs structure
   columns: [],
+
+  barChart:{}
 };
 
 const countrySlice = createSlice({
@@ -34,7 +36,6 @@ const countrySlice = createSlice({
       state.rows = visualizeDataRows;
     },
     changeTableDropdown(state, action) {
-      console.log(action.payload.selectedCounty);
       state.selectedCounty = action.payload.selectedCounty;
 
       const selectedCountryData = state.countriesData.find(
@@ -46,6 +47,9 @@ const countrySlice = createSlice({
       });
       state.rows = visualizeDataRows;
     },
+    changeBarChartDropdown(state,action){
+      state.barChart = action.payload.barChartData
+    }
   },
 });
 

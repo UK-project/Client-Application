@@ -1,28 +1,30 @@
+import { CallMerge } from "@material-ui/icons";
 import React, { useState, useEffect } from "react";
 import ReactApexChart from "react-apexcharts";
 import { useSelector, useDispatch } from "react-redux";
 import { countryActions } from "../store/country";
 const ApexChart = () => {
-  const [chartData, setChartData] = useState([
-    {
-      name: "Website Blog",
-      type: "column",
-      data: [440, 505, 414, 671, 227, 413, 201, 352, 752, 320, 257, 160],
-    },
-    {
-      name: "Social Media",
-      type: "line",
-      data: [23, 42, 35, 27, 43, 22, 17, 31, 22, 22, 12, 16],
-    },
-  ]);
+  const [lineData, setLineData] = useState({
+    name: "Website Blog",
+    type: "column",
+    data: [440, 505, 414, 671, 227, 413],
+  });
+  const [barData, setBarData] = useState({
+    name: "Social Media",
+    type: "line",
+    data: [23, 42, 35, 27, 43, 39],
+  });
+
   const [chartOption, setChartOption] = useState({
     chart: {
-      height: 350,
+      height: 450,
       type: "line",
+      background: "#182B4D",
     },
     // foreColor: "#fff",
     stroke: {
       width: [0, 4],
+      curve: "smooth",
     },
     title: {
       text: "Title of graph",
@@ -38,6 +40,7 @@ const ApexChart = () => {
       },
     },
     background: {
+      color: "#182B4D",
       enabled: true,
       foreColor: "#fff",
       padding: 4,
@@ -68,22 +71,9 @@ const ApexChart = () => {
         color: "white",
       },
     },
-    labels: [
-      "01 Jan 2001",
-      "02 Jan 2001",
-      "03 Jan 2001",
-      "04 Jan 2001",
-      "05 Jan 2001",
-      "06 Jan 2001",
-      "07 Jan 2001",
-      "08 Jan 2001",
-      "09 Jan 2001",
-      "10 Jan 2001",
-      "11 Jan 2001",
-      "12 Jan 2001",
-    ],
+    labels: ["Tv", "News", "ooh", "wer", "mnb", "xcvb","other"],
     xaxis: {
-      type: "datetime",
+      type: "string",
       labels: {
         style: {
           colors: "white",
@@ -120,8 +110,8 @@ const ApexChart = () => {
         },
       },
     ],
-    background: "#2e3f47",
-    colors: ["#E91E63", "#9C27B0"],
+    background: "#fff",
+    colors: ["#5E72E4", "#9C27B0"],
     legend: {
       position: "bottom",
       labels: {
@@ -129,131 +119,84 @@ const ApexChart = () => {
       },
     },
   });
-  
+
   const countryData = useSelector((state) => state.country.rows);
+  const sheetData = useSelector((state) => state.country.barChart);
 
-  const [barChartCountry,setBarChartCountry]  = useState('')
-  const [lineChartCountry, setLineChartCountry] = useState('')
 
-  const [labels, setLabels] = useState([]);
-
-  const [barChartYears, setBarChartYears] = useState([]);
-  const [lineChartYears, setLineChartYears] = useState([]);
-
-  const [selectedBarChartYear, setSelectedBarChartYear] = useState([]);
-  const [selectedLineChartYear, setSelectedLineChartYear] = useState([]);
-
-  const [barChartValues, setBarChartValues] = useState([]);
-  const [lineChartValues, setLineChartValues] = useState([]);
-  const countryDropdownValues = useSelector(
-    (state) => state.country.countryList
-  );
+  const [years, setYears] = useState([]);
+  const [selectedYear, setSelectedYear] = useState("2010");
 
   const barChartCountryHandler = (e) => {
-    console.log(e.target.value);
-  };
-  const lineChartCountryHandler = (e) => {
-    console.log(e.target.value);
-
-  };
-  const barChartYearHandler = (e) => {
-    console.log(e.target.value);
-  };
-  const lineChartYearHandler = (e) => {
-    console.log(e.target.value);
-
+    setSelectedYear(e.target.value);
+    const found = countryData.find(
+      (el) => el.Year === parseInt(e.target.value)
+    );
+    const founded = { ...found };
+    delete founded.id;
+    delete founded.country;
+    delete founded.Year;
+    delete founded.Total;
+    const properties = Object.keys(founded);
+    let values = Object.values(founded);
+    setLineData({...lineData,data:values})
+    setChartOption({...chartOption,labels:properties});
   };
 
   useEffect(() => {
     if (countryData.length === 0) return null;
+    const yearsForCountry = [];
+    countryData.forEach((el) => yearsForCountry.push(el.Year));
+    setYears(yearsForCountry);
+    const properties = Object.keys(sheetData);
+    const values = Object.values(sheetData);
+    console.log("From mixed chart :", { properties }, { values });
+    setBarData({...barData,data:values})
+    setChartOption({...chartOption,labels:properties});
+  }, [countryData.length, sheetData]);
 
 
-    // const yearsForCountry = [];
-    // countryData.forEach((el) => yearsForCountry.push(el.Year));
-    // setBarChartYears(yearsForCountry);
-    // setLineChartYears(yearsForCountry)
-
-    // const found = countryData.find((el) => el.Year === parseInt(selectedBarChartYear));
-    // const founded = { ...found };
-    // delete founded.id;
-    // delete founded.country;
-    // delete founded.Year;
-    // const properties = Object.keys(founded);
-    // setLabels(properties);
-    // setChartOption({
-    //   ...chartOption,
-    //   xaxis: { ...chartOption.xaxis, categories: properties },
-    // });
-    // let values = Object.values(founded);
-    // setBarChartValues(values);
-    // let roundedValues = values.map((v) => Math.round(v * 100) / 100);
-    // setChartData([{ data: roundedValues }]);
+  useEffect(() => {
+    if (countryData.length === 0) return null;
+    const yearsForCountry = [];
+    countryData.forEach((el) => yearsForCountry.push(el.Year));
+    setYears(yearsForCountry);
+    const found = countryData.find((el) => el.Year === parseInt(selectedYear));
+    const founded = { ...found };
+    delete founded.id;
+    delete founded.country;
+    delete founded.Year;
+    delete founded.Total;
+    const properties = Object.keys(founded);
+    let barChartValues = Object.values(founded);
+    console.log(properties);
+    setChartOption({...chartOption,labels:[properties]});
   }, []);
+
 
   return (
     <div id="chart" style={{ color: "red" }}>
-    <div>
-    <select
-        id="dropdown"
-        value={barChartCountry}
-        onChange={barChartCountryHandler}
-      >
-        {countryDropdownValues.map((el) => {
-          return (
-            <option key={el.id} value={el.country}>
-              {el.country}
-            </option>
-          );
-        })}
-      </select>
-      <select
-        id="dropdown"
-        value={lineChartCountry}
-        onChange={lineChartCountryHandler}
-      >
-        {countryDropdownValues.map((el) => {
-          return (
-            <option key={el.id} value={el.country}>
-              {el.country}
-            </option>
-          );
-        })}
-      </select>
-    </div>
-    <div>
-    <select
-        id="dropdown"
-        value={selectedBarChartYear}
-        onChange={barChartYearHandler}
-      >
-        {barChartYears.map((el) => {
-          return (
-            <option key={el} value={el}>
-              {el}
-            </option>
-          );
-        })}
-      </select>
-      <select
-        id="dropdown"
-        value={selectedLineChartYear}
-        onChange={lineChartYearHandler}
-      >
-        {lineChartYears.map((el) => {
-          return (
-            <option key={el} value={el}>
-              {el}
-            </option>
-          );
-        })}
-      </select>
-    </div>
-    
+      <div>
+        <select
+          id="dropdown"
+          value={selectedYear}
+          onChange={barChartCountryHandler}
+        >
+          {years.map((el) => {
+            return (
+              <option key={el} value={el}>
+                {el}
+              </option>
+            );
+          })}
+        </select>
+      </div>
+
       <ReactApexChart
         options={chartOption}
-        series={chartData}
+        series={[lineData,barData]}
         type="line"
-        height={350}
+        height={450}
       />
     </div>
   );

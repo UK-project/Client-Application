@@ -2,23 +2,26 @@ import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 const theme = createMuiTheme({
     typography: {
       allVariants: {
-        color: "black",
+        color: "#000",
       },
     },
     palette: {
       primary: {
-        main: "#2e3f47",
+        main: "##5E72E4",
       },
       secondary: {
-        main: "#f94a4a",
+        main: "#5E72E4",
       },
       background: {
-        default: "#233036",
+        
+        default: "#F1F4F9",
+        //paper change app-bar and side drawer
         paper: "white",
       },
       text: {
-        primary: "#000",
+        primary: "#5E72E4",
       },
+      
     },
   });
 

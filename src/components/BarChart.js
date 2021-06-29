@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import ReactApexChart from "react-apexcharts";
 import { useSelector, useDispatch } from "react-redux";
+import { countryActions } from "../store/country";
+
 import pptxgen from "pptxgenjs";
 const ApexBarChart = () => {
-  const [chartData, setChartData] = useState([
-    {
-      data: [430, 448, 470, 540, 580, 690, 1100, 1200, 1380, 200],
-    },
-  ]);
+  const dispatch = useDispatch();
+  const [chartData, setChartData] = useState([]);
   const [years, setYears] = useState([]);
   const [selectedYear, setSelectedYear] = useState("2010");
   const [labels, setLabels] = useState([]);
@@ -18,14 +17,14 @@ const ApexBarChart = () => {
       events: {
         animationEnd: function (chartContext, options) {
           // ...
-          console.log("animation end");
+          // console.log("animation end");
         },
         click: function (event, chartContext, config) {
           // The last parameter config contains additional information like `seriesIndex` and `dataPointIndex` for cartesian charts
-          console.log(chartContext, event, config);
+          // console.log(chartContext, event, config);
         },
       },
-      colors: ["#F44336", "#E91E63", "#9C27B0"],
+      colors: ["#5E72E4", "#5E72E4", "#5E72E4"],
       //label color
       foreColor: "white",
       //   dropShadow: {
@@ -43,22 +42,25 @@ const ApexBarChart = () => {
         autoScaleYaxis: true,
       },
       //background color for chart
-      background: "#2e3f47",
+      background: "#182B4D",
       type: "bar",
       height: 350,
       animations: {
         enabled: true,
         easing: "easeinout",
-        speed: 800,
+        speed: 500,
         animateGradually: {
           enabled: true,
-          delay: 150,
+          delay: 50,
         },
         dynamicAnimation: {
           enabled: true,
           speed: 350,
         },
       },
+    },
+    grid: {
+      show: false,
     },
     plotOptions: {
       bar: {
@@ -76,83 +78,83 @@ const ApexBarChart = () => {
       colors: ["#9C27B0"],
     },
     fill: {
-      type: "",
-      colors: ["#f94a4a"],
+      type: "gradient",
+      colors: ["#9C27B0"],
       gradient: {
         shade: "dark",
-        gradientToColors: ["#f94a4a"],
+        gradientToColors: ["#5E72E4","#9C27B0"],
         inverseColors: true,
-        shadeIntensity: 1,
-        opacityFrom: 1,
-        opacityTo: 1,
-        type: "vertical",
-        stops: [0, 90, 100],
+        shadeIntensity: 0.7,
+        opacityFrom: 0.9,
+        opacityTo: 0.7,
+        type: "horizontal",
+        stops: [0, 95, 100],
       },
     },
     xaxis: {
       categories: [],
     },
     subtitle: {
-      text: 'Subtitle for graph',
-      align: 'center',
+      text: "Subtitle for graph",
+      align: "center",
       margin: 10,
       offsetX: 0,
       offsetY: 0,
       floating: false,
       style: {
-        fontSize:  '20px',
-        fontWeight:  'bold',
-        fontFamily:  undefined,
-        color:  '#9699a2'
+        fontSize: "20px",
+        fontWeight: "bold",
+        fontFamily: undefined,
+        color: "#9699a2",
       },
-  },
-  //tooltip disabled
-   tooltip: {
-    enabled: true,
-    enabledOnSeries: true,
-    shared: true,
-    followCursor: true,
-    intersect: false,
-    inverseOrder: false,
-    custom: undefined,
-    fillSeriesColor: true,
-    theme: false,
-    style: {
-      fontSize: '12px',
-      fontFamily: undefined
     },
-    onDatasetHover: {
+    //tooltip disabled
+    tooltip: {
+      enabled: true,
+      enabledOnSeries: true,
+      shared: true,
+      followCursor: true,
+      intersect: false,
+      inverseOrder: false,
+      custom: undefined,
+      fillSeriesColor: true,
+      theme: false,
+      style: {
+        fontSize: "12px",
+        fontFamily: undefined,
+      },
+      onDatasetHover: {
         highlightDataSeries: false,
-    },
-    x: {
+      },
+      x: {
         show: true,
-        format: 'dd MMM',
+        format: "dd MMM",
         formatter: undefined,
-    },
-    y: {
-      show:false,
+      },
+      y: {
+        show: false,
         formatter: undefined,
         title: {
-            formatter: (seriesName) => seriesName,
+          formatter: (seriesName) => seriesName,
         },
-    },
-    z: {
+      },
+      z: {
         formatter: undefined,
-        title: 'Size: '
-    },
-    marker: {
+        title: "Size: ",
+      },
+      marker: {
         show: false,
-    },
-    items: {
-       display: 'flex',
-    },
-    fixed: {
+      },
+      items: {
+        display: "flex",
+      },
+      fixed: {
         enabled: false,
-        position: 'topRight',
+        position: "topRight",
         offsetX: 0,
         offsetY: 0,
+      },
     },
-}
     //shadow properties
     // dropShadow: {
     //   enabled: true,
@@ -161,7 +163,6 @@ const ApexBarChart = () => {
     //   blur: 3,
     //   opacity: 0.5
     // }
-
   });
   const selectedTabDropdown = useSelector(
     (state) => state.country.selectedCounty
@@ -180,6 +181,8 @@ const ApexBarChart = () => {
     delete founded.id;
     delete founded.country;
     delete founded.Year;
+    delete founded.Total;
+    dispatch(countryActions.changeBarChartDropdown({barChartData:{...founded}}))
     const properties = Object.keys(founded);
     setLabels(properties);
     setChartOptions({
@@ -197,11 +200,12 @@ const ApexBarChart = () => {
     const found = countryData.find(
       (el) => el.Year === parseInt(e.target.value)
     );
-    console.log("founded", found);
     const founded = { ...found };
     delete founded.id;
     delete founded.country;
     delete founded.Year;
+    delete founded.Total;
+    dispatch(countryActions.changeBarChartDropdown({barChartData:{...founded}}))
     const properties = Object.keys(founded);
     setLabels(properties);
     setChartOptions({
@@ -214,6 +218,10 @@ const ApexBarChart = () => {
     setChartData([{ data: roundedValues }]);
   };
   const toggleAxisHandler = () => {
+    const gradientType =
+      chartOptions.fill.gradient.type === "vertical"
+        ? "horizontal"
+        : "vertical";
     setChartOptions({
       ...chartOptions,
       plotOptions: {
@@ -221,6 +229,13 @@ const ApexBarChart = () => {
         bar: {
           ...chartOptions.plotOptions.bar,
           horizontal: !chartOptions.plotOptions.bar.horizontal,
+        },
+      },
+      fill: {
+        ...chartOptions.fill,
+        gradient: {
+          ...chartOptions.fill.gradient,
+          type: gradientType,
         },
       },
     });
@@ -288,10 +303,13 @@ const ApexBarChart = () => {
     pptx.writeFile({ fileName: `country for year.pptx` });
   };
   return (
-    <div id="chart">
-      <h3>
-        {sheetData.name} for {selectedCountry} in {selectedYear}{" "}
-      </h3>
+    <div id="chart" style={{ color: "#000" }}>
+      <div style={{ color: "#fff" }}>
+        <h3>
+          {sheetData.name} for {selectedCountry} in {selectedYear}{" "}
+        </h3>
+      </div>
+
       <select id="dropdown" value={selectedYear} onChange={handleYearChange}>
         {years.map((year) => {
           return (
@@ -305,7 +323,7 @@ const ApexBarChart = () => {
         options={chartOptions}
         series={chartData}
         type="bar"
-        height={500}
+        height={450}
       />
       <button onClick={toggleAxisHandler}>Toggle Axis</button>
       <button onClick={downloadPPT}>Download PPT</button>

@@ -7,7 +7,6 @@ import {
   Toolbar,
   List,
   CssBaseline,
-  Typography,
   Divider,
   IconButton,
   ListItem,
@@ -24,11 +23,12 @@ import MailIcon from "@material-ui/icons/Mail";
 import Table from "./Table";
 import BarChart from "./BarChart";
 import MixedChart from "./MixedChart";
+import StackChart from "./StackChart";
 import DataControl from "./DataControl";
 import { drawerStyles } from "../style/JssStyle";
 import { changeResponseStructure, getCountries } from "../helpers/helper";
 
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { countryActions } from "../store/country";
 
 import response from "../assets/response.json";
@@ -56,19 +56,20 @@ export default function MiniDrawer() {
     };
     const sheet = changeResponseStructure(response);
     const dropDownValues = getCountries(sheet.tabs);
+    console.log("sheet", { sheet });
     const initialPayload = {
       sheetData,
       dropDownValues,
       tabsData: sheet.tabs,
     };
-    // console.log(sheet.tabs);
     dispatch(countryActions.initialSetup(initialPayload));
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
+        style={{ background: "#5E72E4" }}
         position="fixed"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
@@ -81,7 +82,8 @@ export default function MiniDrawer() {
         >
           <Button
             style={{
-              background: "#f94a4a",
+              background: "#35CDEF",
+              color: "#fff",
             }}
             color="inherit"
             aria-label="open drawer"
@@ -96,9 +98,7 @@ export default function MiniDrawer() {
             }
             <MenuIcon style={{ fontSize: 56 }} />
           </Button>
-          <Typography variant="h6" noWrap>
-            Chart Visualizer
-          </Typography>
+          <div>Chart Visualizer</div>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -150,66 +150,160 @@ export default function MiniDrawer() {
           ))}
         </List>
       </Drawer>
-      <main className={classes.content}>
-        <div className={classes.toolbar} />
+      <main
+        className={classes.content}
+        style={{
+          width: "100%",
+          padding: "0px",
+        }}
+      >
         <div
+          className={classes.toolbar}
           style={{
             width: "100%",
-            height: "100px",
-            background: "#2e3f47",
-            margin: "20px",
-            border: "2px solid #f94a4a",
-            boxShadow: "2px 2px 3px 4px #f94a4a",
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            alignItems: "center",
+            height: "600px",
+            backgroundColor: "#5E72E4",
+            zIndex: "20",
           }}
-        >
-          {/* data selection Area */}
-          <DataControl />
-        </div>
+        />
         <div
           style={{
-            width: "100%",
-            height: "400px",
-            backgroundColor: "#2e3f47",
-            margin: "20px",
-          }}
-        >
-          <Table />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            height: "700px",
-            marginBottom: "20px",
+            padding: "20px",
+            marginTop: "-500px",
+            // backgroundColor:"#F2F4FA",
+            zIndex: "1",
           }}
         >
           <div
             style={{
-              width: "100%",
-              height: "700px",
-              //works color for whole div => cant change graph background
-              backgroundColor: "#2e3f47",
-              margin: "20px",
-              //works
-              // color: "red",
+              display: "flex",
+              flexDirection: "row",
+              marginBottom: "20px",
+              justifyContent: "center",
             }}
           >
-            <BarChart />
+            <div
+              style={{
+                width: "300px",
+                height: "120px",
+                backgroundColor: "white",
+                borderRadius: "10px",
+                marginRight: "30px",
+              }}
+            >
+              11 Sheets
+            </div>
+            <div
+              style={{
+                width: "300px",
+                height: "120px",
+                backgroundColor: "white",
+                borderRadius: "10px",
+                marginRight: "30px",
+              }}
+            >
+              102 Users
+            </div>
+            <div
+              style={{
+                width: "300px",
+                height: "120px",
+                backgroundColor: "white",
+                borderRadius: "10px",
+                marginRight: "30px",
+              }}
+            >
+              13 Tabs
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+            }}
+          >
+            <DataControl />
+            <DataControl />
+            <DataControl />
+          </div>
+
+          <div
+            style={{
+              width: "100%",
+              height: "400px",
+              backgroundColor: "#fff",
+              marginBottom: "20px",
+              // borderRadius:"20px",
+              // padding:"10px"
+            }}
+          >
+            <Table />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              width: "100%",
+              height: "700px",
+              marginBottom: "20px",
+            }}
+          >
+            <div
+              style={{
+                width: "100%",
+                height: "700px",
+                backgroundColor: "#F1F4F9",
+              }}
+            >
+              <div style={{ width: "100%", padding: "20px" }}>
+                <div
+                  style={{
+                    backgroundColor: "#182B4D",
+                    borderRadius: "20px",
+                    padding: "10px",
+                  }}
+                >
+                  <BarChart />
+                </div>
+              </div>
+            </div>
+            <div
+              style={{
+                width: "100%",
+                height: "700px",
+                backgroundColor: "#F1F4F9",
+              }}
+            >
+              <div style={{ width: "100%", padding: "20px" }}>
+                <div
+                  style={{
+                    backgroundColor: "#182B4D",
+                    borderRadius: "20px",
+                    padding: "10px",
+                  }}
+                >
+                  <MixedChart />
+                </div>
+              </div>
+            </div>
           </div>
           <div
             style={{
               width: "100%",
               height: "700px",
-              margin: "20px",
-              backgroundColor: "#2e3f47",
+              backgroundColor: "#F1F4F9",
             }}
           >
-            <MixedChart />
+            <div style={{ width: "100%", padding: "20px" }}>
+              <div
+                style={{
+                  backgroundColor: "#182B4D",
+                  borderRadius: "40px",
+                  padding: "10px",
+                  paddingTop:"30px"
+                }}
+              >
+                <StackChart />
+              </div>
+            </div>
           </div>
         </div>
       </main>
