@@ -30,7 +30,7 @@ const ApexChart = () => {
       text: "Title of graph",
     },
     dataLabels: {
-      enabled: true,
+      enabled: false,
       enabledOnSeries: [1],
       style: {
         fontSize: "14px",

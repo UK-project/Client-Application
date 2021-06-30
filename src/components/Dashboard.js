@@ -295,6 +295,7 @@ export default function MiniDrawer() {
             <div style={{ width: "100%", padding: "20px" }}>
               <div
                 style={{
+                  // color:"#f",
                   backgroundColor: "#182B4D",
                   borderRadius: "40px",
                   padding: "10px",
