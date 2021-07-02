@@ -6,11 +6,7 @@ export const getCountries = (tabs) => {
   });
   return dropdownValues;
 };
-export const getRowsFromTabsData = (tabsData,filterValue)=>{
-
-}
-
-
+export const getRowsFromTabsData = (tabsData, filterValue) => {};
 
 // change to country centralized
 export const changeResponseStructure = (inputResponse) => {

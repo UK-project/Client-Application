@@ -17,11 +17,10 @@ const ApexChart = () => {
 
   const [chartOption, setChartOption] = useState({
     chart: {
-      height: 450,
       type: "line",
       background: "#182B4D",
+      foreColor: "#fff",
     },
-    // foreColor: "#fff",
     stroke: {
       width: [0, 4],
       curve: "smooth",
@@ -40,13 +39,10 @@ const ApexChart = () => {
       },
     },
     background: {
-      color: "#182B4D",
       enabled: true,
-      foreColor: "#fff",
       padding: 4,
       borderRadius: 2,
       borderWidth: 1,
-      borderColor: "#fff",
       opacity: 0.9,
       dropShadow: {
         enabled: false,
@@ -71,7 +67,7 @@ const ApexChart = () => {
         color: "white",
       },
     },
-    labels: ["Tv", "News", "ooh", "wer", "mnb", "xcvb","other"],
+    labels: [],
     xaxis: {
       type: "string",
       labels: {
@@ -110,11 +106,11 @@ const ApexChart = () => {
         },
       },
     ],
-    background: "#fff",
     colors: ["#5E72E4", "#9C27B0"],
     legend: {
       position: "bottom",
       labels: {
+        //color bottom label 
         colors: "white",
       },
     },
@@ -122,7 +118,6 @@ const ApexChart = () => {
 
   const countryData = useSelector((state) => state.country.rows);
   const sheetData = useSelector((state) => state.country.barChart);
-
 
   const [years, setYears] = useState([]);
   const [selectedYear, setSelectedYear] = useState("2010");
@@ -139,8 +134,8 @@ const ApexChart = () => {
     delete founded.Total;
     const properties = Object.keys(founded);
     let values = Object.values(founded);
-    setLineData({...lineData,data:values})
-    setChartOption({...chartOption,labels:properties});
+    setLineData({ ...lineData, data: values });
+    setChartOption({ ...chartOption, labels: properties });
   };
 
   useEffect(() => {
@@ -151,10 +146,9 @@ const ApexChart = () => {
     const properties = Object.keys(sheetData);
     const values = Object.values(sheetData);
     console.log("From mixed chart :", { properties }, { values });
-    setBarData({...barData,data:values})
-    setChartOption({...chartOption,labels:properties});
+    setBarData({ ...barData, data: values });
+    setChartOption({ ...chartOption, labels: properties });
   }, [countryData.length, sheetData]);
-
 
   useEffect(() => {
     if (countryData.length === 0) return null;
@@ -170,12 +164,11 @@ const ApexChart = () => {
     const properties = Object.keys(founded);
     let barChartValues = Object.values(founded);
     console.log(properties);
-    setChartOption({...chartOption,labels:[properties]});
+    setChartOption({ ...chartOption, labels: [properties] });
   }, []);
 
-
   return (
-    <div id="chart" style={{ color: "red" }}>
+    <div id="chart">
       <div>
         <select
           id="dropdown"
@@ -191,12 +184,11 @@ const ApexChart = () => {
           })}
         </select>
       </div>
-
       <ReactApexChart
         options={chartOption}
-        series={[lineData,barData]}
+        series={[lineData, barData]}
         type="line"
-        height={450}
+        height={500}
       />
     </div>
   );

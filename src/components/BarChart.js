@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import ReactApexChart from "react-apexcharts";
 import { useSelector, useDispatch } from "react-redux";
 import { countryActions } from "../store/country";
-
 import pptxgen from "pptxgenjs";
 const ApexBarChart = () => {
   const dispatch = useDispatch();
   const [chartData, setChartData] = useState([]);
   const [years, setYears] = useState([]);
-  const [selectedYear, setSelectedYear] = useState("2010");
+  const [selectedYear, setSelectedYear] = useState("2020");
   const [labels, setLabels] = useState([]);
   const [values, setValues] = useState([]);
 
